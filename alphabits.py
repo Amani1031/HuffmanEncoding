@@ -1,8 +1,3 @@
-# Name:         Amani Arora
-# Course:       CPE 202
-# Instructor:   Daniel Kauffman
-# Assignment:   AlphaBits
-# Term:         Spring 2021
 
 from typing import Optional, List
 
@@ -179,7 +174,6 @@ def find_letter(bits: str, root: Optional[HuffmanNode], char: str) -> List[str]:
 
 
 
-# do not modify code below this line
 def main() -> None:
     chars = input("Treeify: ")  # initial chars used to create Huffman tree
     root = create_tree(chars)
